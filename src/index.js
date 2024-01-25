@@ -12,6 +12,12 @@ let tasks = [
 ];
 
 // Get all tasks
+app.get('/issues', (req, res) => {
+  res.json(tasks);
+});
+
+
+// Get all tasks
 app.get('/tasks', (req, res) => {
   res.json(tasks);
 });
