@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 //tareas 
 let tasks = [
-  { id: 1, title: 'Task 1', description: 'Do something' },
+  { id: 1, title: 'Task 1', description: 'Haz algo' },
   { id: 2, title: 'Task 2', description: 'Do something else' },
 ];
 
